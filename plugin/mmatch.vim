@@ -29,7 +29,7 @@ endfunction
 
 " command
 command! -nargs=1 S call SearchMMatch(<f-args>)
-command! SC call SearchMMatch(<f-args>)
+command! SC call ClearMMatch()
 
 " ---------------------------------------------------------------------
 let &cpo= s:keepcpo
