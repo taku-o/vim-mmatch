@@ -25,6 +25,7 @@ endfunction
 
 function! ClearMMatch()
     let s:patterns = []
+    let @/ = @_
 endfunction
 
 " command
